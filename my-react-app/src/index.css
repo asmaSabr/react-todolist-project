@@ -1,0 +1,101 @@
+body {
+  background: #ffe4f0;
+  font-family: "Poppins", sans-serif;
+}
+
+.todo-container {
+  width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+  text-align: center;
+}
+
+.title {
+  color: #ff4fa4;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ff94c8;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #ff4fa4;
+}
+
+.btn {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.btn.add {
+  background: #ff4fa4;
+  color: white;
+}
+
+.btn.add:hover {
+  background: #ff2e8c;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  background: #ffe3f2;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.2);
+}
+
+.item span {
+  font-weight: 500;
+  color: #ff2e8c;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.btn.delete {
+  background: #ff7ba5;
+  color: white;
+}
+
+.btn.delete:hover {
+  background: #ff548a;
+}
+
+.btn.move {
+  background: #ffd0e6;
+  color: #ff2e8c;
+}
+
+.btn.move:hover {
+  background: #ffb2d6;
+}
